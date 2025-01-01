@@ -1,12 +1,13 @@
 from langchain_community.llms import Ollama
 from langchain.chains import RetrievalQA
 from .vector_store import get_retriever
+import os
 
 async def get_answer(doc_id: str, question: str) -> tuple[str, str]:
     # Initialize Llama 2
     llm = Ollama(
-        base_url="http://localhost:11434",
-        model="llama2"
+        base_url=os.getenv("BASE_URL"),
+        model=os.getenv("MODEL_NAME")
     )
     
     # Get document retriever

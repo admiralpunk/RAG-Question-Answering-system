@@ -2,8 +2,13 @@ from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 import uvicorn
+from dotenv import load_dotenv
+import os
 
 from routes import pdf_routes, qa_routes
+
+# Load environment variables
+load_dotenv()
 
 app = FastAPI(title="PDF QA API")
 
