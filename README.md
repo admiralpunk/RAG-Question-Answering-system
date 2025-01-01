@@ -2,7 +2,7 @@
 
 An interactive system that allows users to upload PDFs and ask questions about their content, receiving accurate answers with proper citations. Built with React.js, FastAPI, and advanced language models.
 
-![PDF QA System Demo](https://your-demo-gif-url.gif)
+[PDF QA System Demo](https://youtu.be/wCb_qdF9oRo)
 
 ## 🌟 Features
 
@@ -40,13 +40,12 @@ An interactive system that allows users to upload PDFs and ask questions about t
   - PyPDF for text extraction
 
 - **Database & ML**
-  - Vector Database (Chroma)
-  - Language Model Integration
+  - Vector Database (ChromaDB)
+  - Language Model Integration (LLAMA 2)
   - Text Embeddings Pipeline
 
 ## 📋 Prerequisites
 
-- Node.js 16.8 or later
 - Python 3.8 or later
 - pip (Python package manager)
 - Git
