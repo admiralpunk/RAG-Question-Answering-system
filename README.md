@@ -55,8 +55,8 @@ An interactive system that allows users to upload PDFs and ask questions about t
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/pdf-qa-system.git
-   cd pdf-qa-system
+   git clone https://github.com/admiralpunk/RAG-Question-Answering-system.git
+   cd RAG-Question-Answering-system
    ```
 
 2. **Install Frontend Dependencies**
